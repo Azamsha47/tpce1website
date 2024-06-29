@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headbox{
+    border: solid 1px;
+       height: 160px;
+       display: flex;
+}
+#box1,#box2{
+        border: solid 1px;
+        height: 160px;
+}
+#box1{
+    width: 160px;
+}
+#box2{
+    width: 1100px;
+    text-align: center;
+}
+#clgname{
+       font-size: 40px;
+       color: blue;
+}
+#ugc{
+    font-size: 20px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+}
+#jntu{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+#naac{
+    font-size:20px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+#hnk{
+    font-size: 20px;
+    color: yellowgreen;
+    font-weight: bold;
+    text-align: center;
+}
+#scrolltext{
+    font-size: 30px;
+    font-weight: bold;
+    color: goldenrod;
+}
+#nav{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: brown;
+    margin-right: 1px;
+
+}
+ul{
+    list-style: none;
+} 
+ul li a{
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+ display: block;
+}
+ul li:hover{
+    background-color: black;
+}
